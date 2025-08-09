@@ -1,0 +1,178 @@
+/* Estilos Mobile - Header e demais seções */
+@media (max-width: 768px) {
+  /* Header */
+  header{
+    padding: 10px;
+  }
+  .header-container {
+    padding: 0px;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  nav ul li {
+    margin: 10px 20px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  #headerBtn {
+    display: none;
+  }
+
+  nav.active + #headerBtn {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    padding: 120px 0 60px;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-security-icon {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero-security-icon img {
+    height: 150px;
+    width: auto;
+  }
+
+  /* FAQ Section */
+  .faq {
+    padding: 60px 0;
+  }
+
+  .faq-question {
+    padding: 15px 20px;
+    font-size: 1.1rem;
+  }
+
+  /* Build Certificate Section */
+  .certificate-builder {
+    padding: 20px;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .builder-navigation {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Steps Section */
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .step-item {
+    margin-bottom: 20px;
+  }
+
+  /* CTA Section */
+  .cta-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact Section */
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Ajustes gerais de espaçamento */
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-btns .btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+  
+  .builder-step h3 {
+    font-size: 1.3rem;
+  }
+}
