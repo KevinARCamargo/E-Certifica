@@ -248,6 +248,28 @@
         margin-bottom: 30px;
     }
 
+     .optioncard-fake {
+        background-color: var(--white);
+        border-radius: 8px;
+        padding: 25px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid var(--gray);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .optioncard-fake:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border-color: var(--primary);
+    }
+
+    .optioncard-fake a{
+        text-decoration: none;
+        color: var(--dark);
+    }
+
     .option-card {
         background-color: var(--white);
         border-radius: 8px;

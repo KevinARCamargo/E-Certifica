@@ -439,7 +439,8 @@
                         <i class="fas fa-calendar-alt"></i>
                     </div>
                     <h4>${validity}</h4>
-                    <p class="price">À vista: R$ ${price.toFixed(2).replace('.', ',')}</p>
+                    <p class="price">Total: R$ ${price.toFixed(2).replace('.', ',')}</p>
+                    <p class="price">em até 12x sem juros no cartão</p>
                     <div class="option-check">
                         <i class="fas fa-check"></i>
                     </div>
